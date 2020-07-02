@@ -1,11 +1,19 @@
 # EchoBot
 
-The EchoBot is a tiny chatbot that repeats anything you say to it.
+### What it is
+The EchoBot is a tiny EchoBot that repeats anything you say to it.
 
-click to see :  https://rafahalani.github.io/EchoChat/.
+Languages used are Front-end: JavasScript, Back-end: PHP.
 
-Using JavaScript created two main functions :
-1. "keypress", function(e) , "click", function () :  will be triggered (on click or enter key) to save the user message and show the user message.
-2. function output(input) : saves the user input message and show it as an echo (EchoBot).
+click to demo : https://rafahalani.github.io/EchoBot/ .
 
-The front-end is quite simple HTML page with bootstrap & css.
+### How to use 
+
+The end user inputs a message into the EchoBot input field. The end user can submit their input by way of the send button or by pressing the enter key.
+
+Then the EchoBot responds with the same message in a new reply.
+
+
+### API 
+
+The API project server is started by typing in this command `php -S 0.0.0.0:8080` in the terminal. The end user can then navigate to http://localhost:8080/ on their machine and use the EchoBot as intended.
