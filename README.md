@@ -2,13 +2,15 @@
 
 The EchoBot is a tiny chatbot that repeats anything you say to it.
 
-Languages used Front-end javascript, Back-end PHP.
+Languages used are Front-end: JavasScript, Back-end: PHP.
 
-click to see :  .
+click to see : https://rafahalani.github.io/EchoBot/ .
 
-Using JavaScript created two main functions :
+# How to use 
 
-1. ("chat-form").addEventListener("submit", function (event) { :  will be triggered (on click or enter key) to save the user message and show the user message.
-2. function output(input) : saves the user input message and show it as an echo (EchoBot).
+The end user inputs a message into the chatbot input field. The end user can submit their input by way of the send button or by pressing the enter key.
 
-In the PHP file index.php file 
+Then the EchoBot responds with the same message in a new reply.
+
+
+
