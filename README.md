@@ -5,7 +5,7 @@ The EchoBot is a tiny EchoBot that repeats anything you say to it.
 
 Languages used are Front-end: JavasScript, Back-end: PHP.
 
-click to demo : https://rafahalani.github.io/EchoBot/ .
+The project is deployed at: https://rafahalani.github.io/EchoBot/  but the end user should start the server locally as mentioned in the API section below.
 
 ### How to use 
 
