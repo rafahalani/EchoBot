@@ -1,0 +1,30 @@
+body { 
+    font-weight: bold;
+    font-size: 18px; 
+}
+#main div { 
+    margin: 10px; 
+} 
+#input { 
+    padding: 5px;
+    border: 1px solid lightgray; 
+    margin-bottom: 20px;
+    width: 90vw;
+}
+.container-fluid {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn {
+    padding: 10px 40px 10px 40px;
+    border: none;
+}
+.left, .right {
+    color: lightslategray;
+    background: rgb(216, 250, 255);
+    padding: 20px 30px 20px 30px;
+    border-radius: 20px;
+}

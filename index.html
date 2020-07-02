@@ -1,49 +1,25 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>Chatbot</title>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-<style>
-body { 
-	color: #421; font-weight: bold; font-size: 18px; background: rgb(141, 141, 103); 
- background-repeat: repeat-y; 
-}
-span { 
-	color: #711; 
-} 
-::-webkit-input-placeholder { 
-	color: #711 
-}
-#main { 
-
-}
-#main div { 
-	margin: 10px; 
-} 
-#input { 
-	border: 0; background: #EBE547; padding: 5px; border: 1px solid #421; 
-}
-</style>
-</head>
-<body>
-	<div class="container-fluid">
-	
-		<div id="main">
-			<div><span id="user"></span></div>
-			<div> <span id="chatbot"></span></div>
-			<form action="#" id="chat-form">
-			
-			<div><input id="input" class="col-sm-2 col-md-4 col-lg-6 form-control" type="text" placeholder="say anything..." autocomplete="off"/> 
-				 <button class="col-sm-2 col-md-4 col-lg-6 btn btn-info" type="submit" id="sub" value="Submit">send</button>
-				</div>
-			</form>
-		</div>
-	</div>
-	<div class="container-fluid" id="message">
-
-	</div>
-	
-</body>
-<script src="js.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	<head>
+		<title>Chatbot</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<div class="container-fluid">
+			<div id="main">
+				<div class="message" id="message"></div>
+				<div><span id="user"></span></div>
+				<div> <span id="chatbot"></span></div>
+				<form action="#" id="chat-form">
+					<div><input id="input" class=" form-control" type="text" placeholder="say anything..." autocomplete="off"/> 
+						<button class="btn btn-info" type="submit" id="sub" value="Submit">send</button>
+					</div>
+				</form>
+			</div>
+		</div>	
+	</body>
+	<script src="js.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </html>

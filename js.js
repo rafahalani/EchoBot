@@ -4,10 +4,11 @@ document.getElementById("chat-form").addEventListener("submit", function (event)
 
     var message = document.getElementById("input").value;
 
-    var inputList = document.createElement("li");
-    var inputnode = document.createTextNode("User : " + message);
+	var inputList = document.createElement("p");
+	inputList.classList.add("left");
+    var inputnode = document.createTextNode(message);
     inputList.appendChild(inputnode);
-    document.getElementById("message").appendChild(inputList);
+	document.getElementById("message").appendChild(inputList);
 
     fetch(API_URL, {
         method: 'POST',
@@ -28,8 +29,9 @@ function output(input) {
 
     //document.getElementById("chatbot").innerHTML = echo;
     document.getElementById("input").value = ""; //clear input value
-    var chatbotList = document.createElement("li");
-    var chatbotnode = document.createTextNode("EchoBot : " + echo);
+	var chatbotList = document.createElement("p");
+	chatbotList.classList.add("right");
+    var chatbotnode = document.createTextNode(echo);
     chatbotList.appendChild(chatbotnode);
     document.getElementById("message").appendChild(chatbotList);
 }
