@@ -11,7 +11,7 @@ The project is deployed at: https://rafahalani.github.io/EchoBot/  but the end u
 
 The end user inputs a message into the EchoBot input field. The end user can submit their input by way of the send button or by pressing the enter key.
 
-Then the EchoBot responds with the same message in a new reply.
+Then the EchoBot responds with a copy of the input in a new reply. The reply of the EchoBot starts with a capital letter.
 
 
 ### API 
