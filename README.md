@@ -4,7 +4,7 @@ The EchoBot is a tiny chatbot that repeats anything you say to it.
 
 Languages used Front-end javascript, Back-end PHP.
 
-click to see :  https://rafahalani.github.io/EchoChat/.
+click to see :  .
 
 Using JavaScript created two main functions :
 
